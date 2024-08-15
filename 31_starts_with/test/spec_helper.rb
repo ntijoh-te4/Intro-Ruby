@@ -4,5 +4,5 @@ require 'minitest/fail_fast'
 require 'mocha/minitest'
 require 'humanize'
 require 'securerandom'
-MiniTest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
+Minitest::Reporters.use!(Minitest::Reporters::SpecReporter.new)
 $VERBOSE = nil
