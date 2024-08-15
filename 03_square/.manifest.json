@@ -1,0 +1,21 @@
+{
+    "assignmentName": "Square",
+    "filePath": "lib/square.rb",
+    "language": "ruby",
+    "functionName": "square",
+    "functionArity": 1,
+    "tests": [
+        {"description": "returns 0 if input is 0", 
+         "arguments": 0, 
+         "expected": 0},
+        {"description": "returns 1 if input is 1", 
+         "arguments": 1, 
+         "expected": 1},
+        {"description": "returns 1764 if input is 42", 
+         "arguments": 42, 
+         "expected": 1764},
+        {"description": "returns 443556 if input is -666", 
+         "arguments": -666, 
+         "expected": 44356}
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "assignmentName": "Qube",
+    "filePath": "lib/qube.rb",
+    "language": "ruby",
+    "functionName": "qube",
+    "functionArity": 1,
+    "tests": [
+        {"description": "returns 0 if input is 0", 
+         "arguments": 0, 
+         "expected": 0},
+        {"description": "returns 1 if input is 1", 
+         "arguments": 1, 
+         "expected": 1},
+        {"description": "returns 8 if input is 2", 
+         "arguments": 2, 
+         "expected": 8},
+        {"description": "returns -295408296 if input is -666", 
+         "arguments": -666, 
+         "expected": -295408296}
+    ]
+}

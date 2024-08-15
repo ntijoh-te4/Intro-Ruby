@@ -1,0 +1,18 @@
+{
+    "assignmentName": "Previous Number",
+    "filePath": "lib/previous_number.rb",
+    "language": "ruby",
+    "functionName": "previous_number",
+    "functionArity": 1,
+    "tests": [
+        {"description": "returns 0 if input is 1", 
+         "arguments": 1, 
+         "expected": 0},
+        {"description": "returns -1 if input is 0", 
+         "arguments": 0, 
+         "expected": -1},
+        {"description": "returns 1337 if input is 1338", 
+         "arguments": 1338, 
+         "expected": 1337}
+    ]
+}
